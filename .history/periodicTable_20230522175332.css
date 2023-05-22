@@ -1,0 +1,9 @@
+.periodic{
+    display: flex;
+    justify-content: center;
+}
+
+
+.element{
+    border: 1px solid black;
+}

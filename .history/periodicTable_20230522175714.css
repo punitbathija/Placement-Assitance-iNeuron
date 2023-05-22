@@ -1,0 +1,12 @@
+.periodic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.element{
+    border: 1px solid black;
+    gap: 10px;
+}

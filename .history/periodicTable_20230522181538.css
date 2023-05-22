@@ -1,0 +1,27 @@
+.periodic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.element{
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+}
+
+.red{
+    background-color: rgb(244, 171, 171);
+}
+
+.blue{
+    background-color: rgb(137, 211, 236);
+}
+.yellow{
+    background-color: rgb(235, 235, 131);
+}
+.green{
+    background-color: rgb(139, 199, 139);
+}

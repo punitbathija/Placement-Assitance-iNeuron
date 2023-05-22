@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Periodic Table</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .periodic-table {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+      }
+
+      .periodic-table td {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+      }
+
+      .periodic-table td div {
+        text-align: center;
+      }
+
+      .periodic-table td.element {
+        background-color: #ffffff;
+      }
+
+      .periodic-table td.header {
+        background-color: #cccccc;
+        font-weight: bold;
+      }
+
+      .periodic-table td.row-header {
+        background-color: #bbbbbb;
+        font-weight: bold;
+        text-align: right;
+      }
+
+      .periodic-table td.element div.number {
+        float: left;
+        width: 50px;
+      }
+
+      .periodic-table td.element div.symbol {
+        float: left;
+        width: 50px;
+      }
+
+      .periodic-table td.element div.name {
+        float: left;
+        width: 200px;
+      }
+
+      .periodic-table td.element div.atomic-mass {
+        float: left;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="periodic-table">
+      <tr class="header">
+        <td>Number</td>
+        <td>Symbol</td>
+        <td>Name</td>
+        <td>Atomic Mass</td>
+      </tr>
+
+      <tr class="row-header">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr class="element">
+        <td>1</td>
+        <td>H</td>
+        <td>Hydrogen</td>
+        <td>1.008</td>
+      </tr>
+
+      <tr class="element">
+        <td>2</td>
+        <td>He</td>
+        <td>Helium</td>
+        <td>4.0026</td>
+      </tr>
+
+      <tr class="element">
+        <td>3</td>
+        <td>Li</td>
+        <td>Lithium</td>
+        <td>6.941</td>
+      </tr>
+
+      <tr class="element">
+        <td>4</td>
+        <td>Be</td>
+        <td>Beryllium</td>
+        <td>9.0122</td>
+      </tr>
+
+      <tr class="element">
+        <td>5</td>
+        <td>B</td>
+        <td>Boron</td>
+        <td>10.811</td>
+      </tr>
+
+      <tr class="element">
+        <td>6</td>
+        <td>C</td>
+        <td>Carbon</td>
+        <td>12.011</td>
+      </tr>
+
+      <tr class="element">
+        <td>7</td>
+        <td>N</td>
+        <td>Nitrogen</td>
+        <td>14.007</td>
+      </tr>
+
+      <tr class="element">
+        <td>8</td>
+        <td>O</td>
+        <td>Oxygen</td>
+        <td>15.999</td>
+      </tr>
+
+      <tr class="element">
+        <td>9</td>
+        <td>F</td>
+        <td>Fluorine</td>
+        <td>18.998</td>
+      </tr>
+    </table>
+  </body>
+</html>

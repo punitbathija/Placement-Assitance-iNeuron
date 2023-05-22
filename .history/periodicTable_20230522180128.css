@@ -1,0 +1,15 @@
+.periodic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.element{
+    border: 1px solid black;
+}
+
+.red{
+    background-color: rgb(244, 171, 171);
+}
