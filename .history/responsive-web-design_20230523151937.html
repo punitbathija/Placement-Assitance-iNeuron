@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Design Layout with Flexbox</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border: 1px solid black;
+      }
+
+      .nav-left {
+        background-color: lightblue;
+        flex-grow: 1;
+        height: 5rem;
+      }
+
+      .nav-right {
+        flex-grow: 2;
+        height: 5rem;
+      }
+
+      .hero {
+        background-color: #fff;
+        height: 200px;
+        text-align: center;
+      }
+
+      .hero-text {
+        font-size: 3em;
+        margin-top: 50px;
+      }
+
+      .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+      }
+
+      .slider-item {
+        width: 25%;
+        height: 100px;
+        border: 1px solid #ccc;
+      }
+
+      .footer {
+        background-color: #ccc;
+        height: 50px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .hero img {
+        max-width: 100%;
+      }
+
+      .slider-item img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="nav-left"></div>
+        <div class="nav-right"></div>
+      </div>
+      <div class="hero">
+        <img src="https://via.placeholder.com/1000x200" alt="Hero Image" />
+      </div>
+      <div class="slider">
+        <div class="slider-item">
+          <img src="https://via.placeholder.com/350x150" alt="Image 1" />
+        </div>
+        <div class="slider-item">
+          <img src="https://via.placeholder.com/350x150" alt="Image 2" />
+        </div>
+        <div class="slider-item">
+          <img src="https://via.placeholder.com/350x150" alt="Image 3" />
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

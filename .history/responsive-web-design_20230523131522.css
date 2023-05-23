@@ -1,0 +1,9 @@
+*{
+    border: 1px solid black;
+}
+.main{
+    padding:23%;
+}
+.nav{
+    display: flex;
+}

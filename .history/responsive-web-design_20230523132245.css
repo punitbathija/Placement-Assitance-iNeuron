@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*{
+    padding: 5%;
+    border: 1px solid black;
+}
+
+.main{
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    gap: 5em;
+    padding: 0;
+}
+
+.left{
+    flex: 1;
+    background-color: rgb(161, 161, 231);
+}
+
+.right{
+    flex: 4;
+    background-color: lightgray;
+}
+
+.hero{
+    padding: 20%;
+}
