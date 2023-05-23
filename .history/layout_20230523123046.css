@@ -1,0 +1,8 @@
+*{
+    border: 1px solid black;
+}
+
+.blue{
+    display: flex;
+    flex-direction: column;
+}

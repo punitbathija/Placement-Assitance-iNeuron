@@ -1,0 +1,8 @@
+*{
+    padding: 3%;
+}
+
+.blue{
+    display: flex;
+    flex-direction: column;
+}

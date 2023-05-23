@@ -1,0 +1,10 @@
+*{
+    border: 1px solid black;
+    padding: 3%;
+}
+
+.blue{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 248, 255);
+}

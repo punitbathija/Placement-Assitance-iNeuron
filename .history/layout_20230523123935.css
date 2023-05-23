@@ -1,0 +1,17 @@
+*{
+    border: 1px solid black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 248, 255);
+}
+
+.cyan{
+    background-color: cyan  ;
+}
+
+.blue{
+    display: flex;
+}

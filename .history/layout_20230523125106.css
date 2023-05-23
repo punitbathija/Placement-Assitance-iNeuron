@@ -1,0 +1,39 @@
+*{
+    padding: 3%;
+    gap: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 248, 255);
+}
+
+.cyan{
+    background-color: cyan  ;
+}
+
+.blue{
+    display: flex;
+}
+
+.green{
+    flex: 1;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+.orange{
+    flex: 3;
+    background-color: orange;
+}
+
+.article{
+    display: flex;
+    justify-content: space-around;
+}
+
+.yellow{
+    height: 100px;
+    width: 100px;
+}

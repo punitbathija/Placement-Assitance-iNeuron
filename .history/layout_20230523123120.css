@@ -1,0 +1,9 @@
+*{
+    border: 1px solid black;
+    padding: 5%;
+}
+
+.blue{
+    display: flex;
+    flex-direction: column;
+}
