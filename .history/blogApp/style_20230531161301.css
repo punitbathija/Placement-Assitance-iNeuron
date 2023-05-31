@@ -1,0 +1,25 @@
+body {
+    background-color: #dcb387;
+}
+
+h1 {
+    text-align: center;
+}
+
+#blogContainer {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: ;
+}
+
+.blog {
+    border: 2px solid black;
+    width: 200px;
+    background-color: #ef5d58;
+    gap: 30px;
+}
+
+#addBlogForm {
+    margin-top: 30px;
+}

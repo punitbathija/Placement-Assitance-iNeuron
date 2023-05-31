@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog App</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="logic.js" defer></script>
+  <body>
+    <div class="head">
+      <h1>Blog App</h1>
+      <button class="add" id="add">➕</button>
+    </div>
+    <div class="form" id="form">
+      <form>
+        <h1>New Blog</h1>
+        <label for="Title">Title</label>
+        <input type="text" id="title" placeholder="Add a title" required />
+        <br />
+        <input type="text" id="body" placeholder="Add a body" required />
+        <br />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <div class="container" id="container"></div>
+  </body>
+</html>

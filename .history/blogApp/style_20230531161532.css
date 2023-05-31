@@ -1,0 +1,30 @@
+body {
+    background-color: #dcb387;
+}
+
+h1 {
+    text-align: center;
+}
+
+#blogContainer {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 2%;
+}
+
+.blog {
+    border: 2px solid black;
+    width: 200px;
+    background-color: #ef5d58;
+    gap: 30px;
+    height: 350px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+#addBlogForm {
+    margin-top: 30px;
+}
