@@ -1,0 +1,23 @@
+.head{
+  text-align: center;
+  font-size: 45px;
+  font-family: monospace;
+}
+
+.todos{
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px  
+}
+
+.body{
+  background-color: whitesmoke;
+  padding: 15px;
+  filter: drop-shadow(0 0 0.65rem #090727);
+  border-radius: 5px;
+  align-self: center;
+  max-width: 80%;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+}
